@@ -9,51 +9,57 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css"
     />
-
-   
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
     />
-
     <title>Wejdan's personal website</title>
-    <link href="img/w.jpg" rel="icon">
+    <link href="img/w.jpg" rel="icon" class="img-fluid">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 
-    <link href="css/style.css" rel="stylesheet">
-    
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FW7L7WCKWK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FW7L7WCKWK');
+</script>
   </head>
   <body >
 
   <!-- ======= Mobile nav toggle button ======= -->
   <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
-<!-- navbar -->
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  
+<!-- navbar -->
+<div id="home" >
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand text-light " href="#">WEJDAN ALSUWAT </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" >
         <span class="navbar-toggler-icon "></span>
       </button>
       <div class="collapse navbar-collapse text-light" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto  mb-lg-0">
+          <ul class="navbar-nav ms-auto  mb-lg-0">
          
-          <li><a href="#home" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-         
-          <li><a href="#Education" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Education</span></a></li>
-          <li><a href="#Experience" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Experience</span></a></li>
-          <li><a href="#Project" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Projects</span></a></li>
-          <li><a href="#skills" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Skills</span></a></li>
-          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+             <li><a href="#about" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>About me</span></a></li>
+             <li><a href="#Mynews" class="nav-link scrollto "><i class="bx bx-home"></i> <span>My news</span></a></li>
+             <li><a href="#Education" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Education</span></a></li>
+             <li><a href="#Experience" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Experience</span></a></li>
+             <li><a href="#Project" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Projects</span></a></li>
+             <li><a href="#skills" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Skills</span></a></li>
+             <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
 
-        </ul>
-      </div>
-    </div>
-  </nav>
+           </ul>
+         </div>
+       </div>
+    </nav>
 </div>
+
 <!-- end navbar -->
 <div class="mb-5">
-<section class="bg-dark "  id="home">
+<section class="bg-dark "  id="about">
   <div class="container">
   <div class="d-flex align-items-center">
     <div>
@@ -65,10 +71,7 @@
     </p1>
   
     </div>
-
-    
-    <img src="img/img.jpg" alt=""rel="stylesheet"  class=" w-50 rounded-circle">
-
+    <img src="img/img.jpg" alt=""rel="stylesheet"  class=" w-50 rounded-circle" class="img-fluid" >
   </div>
 
   </div>
@@ -123,7 +126,7 @@
     <div class="mb-5">
       <h2 class="display-4 ps-2 bg-secondary  text-white" >MY NEWS </h2>
         <div class="col  bg-white text-dark">
-  <section id="Education" class="Education">
+  <section id="Mynews" class="#Mynews">
       <div class="container">
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -363,60 +366,6 @@
 <div class="container">
   <div class="skills Photoshop">60%</div>
 </div>
-
-
-
-
-                
-        <!--  
-    
-        <div class="row skills-content">
-
-          <div class="col-lg-6" data-aos="fade-up">
-
-            <div class="progress">
-              <span class="skill">Reading <i class="val">100%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">JAVA <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Programming <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Design <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-          </div>
-
-
-            <div class="progress">
-              <span class="skill">Photoshop <i class="val">60%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-
-          </div>
-
-        </div>
-      -->
 </div>
         
 </div>
@@ -467,21 +416,28 @@
 
 
     </div>
-    <a href='https://www.symptoma.ae/ar/info/covid-19#info'>كوفيد-19</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=9df10738030426844bd25f6059aae8d508552dea'></script>
-    <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/927621/t/0"></script>
+    <!-- webcounter Code START -->
+    <a href='https://www.symptoma.ae/ar/info/covid-19#info'>Cov-SARS-2</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=a28bdc86df50df8a72d3cab52f8e40871515575f'></script>
+<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/928314/t/0"></script>
+
+
  
 </section>
 </div>
 </div>
 <!-- End Contact Section -->
 
-
+<!-- Back to top button -->
+<a href="#home" id="btn-back-to-top">
+	<i class="fa fa-arrow-circle-up" style="padding:0%;font-size:48px;color:gray" ></i>
+  </a>
+<!-- Back to top button -->
 
 
    
 <!-- Footer -->
 <footer class="page-footer mt-7 bg-dark text-white font-small blue pt-1 py-5">
-  <!-- Copyright -->
+
   <div class="footer-copyright text-center ">© 2022 Copyright WEJDAN ALSUWAT &nbsp; &nbsp; &nbsp;
     
     <!-- github -->
@@ -500,23 +456,17 @@
      
   </div>
   
-  <!-- Copyright -->
+
 </footer>
 <!-- Footer -->
 
 
-<!-- Back to top button -->
-<a href="#home" id="btn-back-to-top">
-	<i class="fa fa-arrow-circle-up" style="padding:0%;font-size:48px;color:gray"></i>
-  </a>
-<!-- Back to top button -->
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
 
    
   </body>
-</html>
 
 <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
 <script>
@@ -533,6 +483,7 @@ window.cookieconsent.initialise({
 });
 </script>
 
+</html>
 
 
 
